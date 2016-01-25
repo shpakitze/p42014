@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace ClassLibrary_Vasilyev
 {
-    class CityCar : Car
+    public class CityCar : Car
     {
         public CityCar() { }
         public CityCar(string name, int maxSp, int currSp)
