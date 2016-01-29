@@ -13,6 +13,8 @@ namespace CarsTests
         {
             CityCar cc = new CityCar("Lexus", 285, 60);
             cc.TurboBoost();
+            WarCar orc = new WarCar("Dred",10,12);
+            orc.TurboBoost();
         }
     }
 }
